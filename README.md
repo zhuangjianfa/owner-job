@@ -1,4 +1,4 @@
-# dtxd-job使用说明
+# owner-job使用说明
 一.引用job核心包
 <dependency>
 	<groupId>com.dtxd</groupId>
