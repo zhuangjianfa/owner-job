@@ -1,8 +1,8 @@
 # owner-job使用说明
 一.引用job核心包
 <dependency>
-	<groupId>com.dtxd</groupId>
-	<artifactId>dtxd-job</artifactId>
+	<groupId>com.owner</groupId>
+	<artifactId>owner-job</artifactId>
 	<version>0.0.2</version>
 </dependency>
 二.普通需要使用定时任务的类继承SimpleJobAbstract添加注解@ElasticSimpleJob
@@ -14,7 +14,7 @@ event.trace.rdb.enable: false
 #数据库驱动
 event.trace.rdb.driver: com.mysql.jdbc.Driver
 #数据库连接
-event.trace.rdb.url: jdbc:mysql://localhost:3306/dtxd_job?characterEncoding=utf-8&autoReconnect=true&allowMultiQueries=true&useSSL=true
+event.trace.rdb.url: jdbc:mysql://localhost:3306/owner_job?characterEncoding=utf-8&autoReconnect=true&allowMultiQueries=true&useSSL=true
 #用户名
 event.trace.rdb.username: root
 #密码
